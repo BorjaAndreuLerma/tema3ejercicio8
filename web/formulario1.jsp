@@ -20,7 +20,7 @@
                 (request.getParameter("name").equals("")
                 && request.getParameter("email").equals(""))
                 ){ %>
-        <form action="formulario2.jsp" method="POST">
+        <form action="formulario1.jsp" method="POST">
             <table border="0" width="50%" bgcolor="#FFFFD4">
                 <thead>
                     <tr>

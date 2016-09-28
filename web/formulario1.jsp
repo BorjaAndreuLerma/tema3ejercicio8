@@ -15,10 +15,16 @@
     </head>
     <body>
         <% if((request.getParameter("name")==null
-                && request.getParameter("email")==null)
+                && request.getParameter("edad")==null
+                && request.getParameter("dias")==null
+                && request.getParameter("formapago")==null
+                && request.getParameter("especificaciones")==null)
                 || 
                 (request.getParameter("name").equals("")
-                && request.getParameter("email").equals(""))
+                && request.getParameter("edad").equals("")
+                && request.getParameter("dias").equals("")
+                && request.getParameter("formapago").equals("")
+                && request.getParameter("especificaciones").equals(""))
                 ){ %>
         <form action="formulario1.jsp" method="POST">
             <table border="0" width="50%" bgcolor="#FFFFD4">
